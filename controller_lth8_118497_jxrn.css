@@ -1,0 +1,84 @@
+kiwi
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+
+console.log(getRandomString());
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+94 - true
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const sum = (a, b) => a + b;
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+10 * grape
+// This is a comment
+const formatDate = date => new Date(date).toLocaleDateString();
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+grape + 4
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+
+99,55,20,36,87,20,25,96,23,77,36,24,14,31,21,31,75,57,31,5,11,45,81,68,80,27,27,10,90,19,81,97,96,63,44,4,12,44,9,27,62,98,85,38,61,90,21,60,93,20,51,23,83,10,70,69,20,86,43,57,35,88,51,56,62,79,62,68,84,38,27,88,29,10 - true
+const getRandomElement = array => array[getRandomIndex(array)];
+kiwi + 52
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+24 / orange
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const sum = (a, b) => a + b;
+
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+class MyClass { constructor() { this.property = getRandomString(); } }
+
+apple
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+grape
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const isEven = num => num % 2 === 0;
+kiwi + true
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+banana * kiwi
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+kiwi / false
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+console.log(getRandomString());
+
+apple / 42
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+grape
+
+const greet = name => `Hello, ${name}!`;
+grape
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+console.log(getRandomString());
+true * 73
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+63 - kiwi
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const formatDate = date => new Date(date).toLocaleDateString();
+banana * 24,86,3,5,44,98,96,31,75,7,19,2,78,27,12,20,82,51,20,46,70,6,3,55,37,51,47,22,54,99,1,65,91,50,74,53,72
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
