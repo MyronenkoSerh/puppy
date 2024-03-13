@@ -1,0 +1,26 @@
+69,49,96,20,20,8,44,26,16,84,72,24,25,5,85,37,13,63,49,78,16,50,97,29,95,94 / grape
+const reverseWords = str => str.split(" ").reverse().join(" ");
+apple
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+89 / false
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+// This is a comment
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+45,9,51,70,72,44,86,9,58,80 * 13
+const isPalindrome = str => str === str.split("").reverse().join("");
+const greet = name => `Hello, ${name}!`;
+grape - kiwi
+const getRandomElement = array => array[getRandomIndex(array)];
+
+grape
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+kiwi
+
+const formatDate = date => new Date(date).toLocaleDateString();
+
+const randomNumber = getRandomNumber();
