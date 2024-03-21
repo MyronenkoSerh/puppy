@@ -1,0 +1,41 @@
+grape
+
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+kiwi
+
+const getRandomElement = array => array[getRandomIndex(array)];
+banana
+
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+0 / 70
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+grape
+
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+apple * true
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+banana - 60,72,92,17,89,22,22,72,83,91,71,56,64,53,58,73,97,12,68,27,95,52,10,68,6,74,33,73,12,54,54,50,56,92,91,57,88,82,47,51,15,18,10,61,27,64,9,10,29,80,10,82,92,90,34,59,37,80,27,56,7,8,11,40,71,50,94,90,4,93,22,13,64,26,39,41,67,69,94,21,75,96
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+apple * true
+class MyClass { constructor() { this.property = getRandomString(); } }
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+19 / 50,15,56,14,5,28,64,6,77,67,3,31,82,5,93,96,47,98,28,91,36,16,10,47,35,66,22,50,1,30,74,80,51,22
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+grape
+
+const sum = (a, b) => a + b;
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+8 + 73
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+false - false
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
