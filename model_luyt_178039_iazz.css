@@ -1,0 +1,44 @@
+8,30,50,66,93,71 / false
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const findSmallestNumber = numbers => Math.min(...numbers);
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+apple - false
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+
+const multiply = (a, b) => a * b;
+
+16 / orange
+const randomNumber = getRandomNumber();
+10,65,6,51,22,21,22,42,34,94,47,59,55,57,31,31,92,80,51,3,94,36,99,98,71,23,36,28,45,18,75,86,39,21,91,76,20,16,91,69,82 + grape
+const squareRoot = num => Math.sqrt(num);
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const findSmallestNumber = numbers => Math.min(...numbers);
+const getUniqueValues = array => [...new Set(array)];
+const findSmallestNumber = numbers => Math.min(...numbers);
+true / 59
+const variableName = getRandomNumber();
+const removeDuplicates = array => Array.from(new Set(array));
+
+1 + 24,23,28,2,69,59,51,41,72,15,61,84,59,73,21,9,97,75
+function addNumbers(a, b) { return a + b; }
+39 / 66
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+
+banana + false
+const isEven = num => num % 2 === 0;
+
+apple * 67
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+71 + 68,86,25,68,87,19,37,67,41,28,50,60,0,45,86,33,76,15,68,29,21,75,39,68,73,95,32,4,40,75,98,83,33,82,54,81,82,96,99,0,53,74,31,64,46,11,58,26
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+26,19,36,44,30,45,86,72,2,56,42,51,9,4,11,75,2,17,27,79,58,71,78,60,27,93,16,73,25,46,35,38,48,45,75,1,28,75,15,19,7,88,13,96,33,37,33,2,13,14,94,88,28,1,29,68,31,51,12,53,2,17,2,97,16,77,24,45,66,90,45,55,64,34,96 - 35,43,54
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+kiwi
+
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
